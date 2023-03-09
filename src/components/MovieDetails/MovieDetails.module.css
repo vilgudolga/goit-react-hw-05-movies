@@ -1,0 +1,91 @@
+.button {
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 60px;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 187, 0);
+    outline: none;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    color: black;
+    box-shadow: inset 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.details_container {
+    display: flex;
+  padding: 10px 0;
+  -webkit-box-shadow: 0px 20px 12px -16px rgba(199, 199, 199, 1);
+  -moz-box-shadow: 0px 20px 12px -16px rgba(199, 199, 199, 1);
+  box-shadow: 0px 20px 12px -16px rgba(199, 199, 199, 1);
+}
+
+.image {
+    border-radius: 5px;
+}
+
+.info {
+    margin-left: 20px;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.score {
+    margin-bottom: 30px;
+}
+
+.overview {
+    margin-bottom: 10px;
+}
+
+.info_overview {
+    text-align: start;
+    margin-bottom: 30px;
+}
+
+.genres {
+    margin-bottom: 10px;
+}
+
+.more_information {
+    padding-left: 10px;
+    color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.link {
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link:not(:last-child) {
+    margin-right: 25px;
+}
+
+.go_back {
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}

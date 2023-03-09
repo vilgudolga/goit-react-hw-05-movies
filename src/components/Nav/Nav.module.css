@@ -1,0 +1,17 @@
+.link {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.active {
+    color: rgb(255, 162, 0);
+}
+nav {
+    padding: 18px 20px;
+    -webkit-box-shadow: 0px 6px 11px 3px rgba(199, 199, 199, 1);
+    -moz-box-shadow: 0px 6px 11px 3px rgba(199, 199, 199, 1);
+    box-shadow: 0px 6px 11px 3px rgba(199, 199, 199, 1);
+}

@@ -1,0 +1,45 @@
+.trending {
+    margin-top: 10px;
+    margin-left: 10px;
+    }
+
+.list {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.SearchForm {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.SearchFormButton {
+    display: inline-block;
+    height: 40px;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.SearchFormInput {
+    display: inline-block;
+    width: 100%;
+    font: inherit;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+.SearchFormInput::placeholder {
+    font: inherit;
+    font-size: 16px;
+}
